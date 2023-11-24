@@ -11,6 +11,8 @@ header {
 
 .container {
   padding: 50px;
+  display: flex;
+  align-items: center;
 }
 
 .header-left {
@@ -61,7 +63,6 @@ header {
   /*debug*/
   border: 1px dashed black;
   background-color: fuchsia;
-  text-align: center;
 }
 
 .container-section-2 {
@@ -86,7 +87,6 @@ header {
   /*debug*/
   border: 1px dashed black;
   background-color: steelblue;
-  text-align: center;
 }
 
 .rect-section-22 {
@@ -97,7 +97,6 @@ header {
   /*debug*/
   border: 1px dashed black;
   background-color: pink;
-  text-align: center;
 }
 
 .container-section-3 {
@@ -109,7 +108,7 @@ header {
 
   /*debug*/
   border: 1px dashed black;
-  background-color: rgb(175, 173, 173);
+  background-color: rgb(212, 197, 197);
   text-align: center;
   min-height: 300px;
 }
@@ -122,7 +121,6 @@ header {
   /*debug*/
   border: 1px dashed black;
   background-color: steelblue;
-  text-align: center;
 }
 
 .rect-section-32 {
@@ -133,5 +131,24 @@ header {
   /*debug*/
   border: 1px dashed black;
   background-color: pink;
-  text-align: center;
+}
+
+.container-section-5 {
+  flex-grow: 1;
+  height: 400px;
+
+  /*debug*/
+  border: 1px dashed black;
+  background-color: rgb(212, 197, 197);
+}
+
+.rect-section-5 {
+  flex-grow: 1;
+  width: 350px;
+  height: 300px;
+  margin: auto;
+
+  /*debug*/
+  border: 1px dashed black;
+  background-color: green;
 }
