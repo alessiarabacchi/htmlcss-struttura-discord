@@ -1,0 +1,39 @@
+/* HEADER*/
+
+header {
+  display: flex;
+  align-items: center;
+
+  /*debug*/
+  background-color: aqua;
+  min-height: 100px;
+}
+
+.container {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.header-left {
+  flex-grow: 1;
+
+  /*debug*/
+  border: 1px dashed black;
+  background-color: goldenrod;
+}
+
+.header-center {
+  flex-grow: 5;
+
+  /*debug*/
+  border: 1px dashed black;
+  background-color: goldenrod;
+}
+
+.header-right {
+  flex-grow: 1;
+
+  /*debug*/
+  border: 1px dashed black;
+  background-color: goldenrod;
+}
