@@ -10,8 +10,7 @@ header {
 }
 
 .container {
-  margin-left: 100px;
-  margin-right: 100px;
+  padding: 50px;
 }
 
 .header-left {
@@ -20,6 +19,7 @@ header {
   /*debug*/
   border: 1px dashed black;
   background-color: goldenrod;
+  text-align: center;
 }
 
 .header-center {
@@ -28,6 +28,7 @@ header {
   /*debug*/
   border: 1px dashed black;
   background-color: goldenrod;
+  text-align: center;
 }
 
 .header-right {
@@ -36,4 +37,29 @@ header {
   /*debug*/
   border: 1px dashed black;
   background-color: goldenrod;
+  text-align: center;
+}
+
+.container-section-1 {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  padding-left: 500px;
+  padding-right: 500px;
+
+  /*debug*/
+  border: 1px dashed black;
+  background-color: blue;
+  text-align: center;
+  min-height: 300px;
+}
+
+.rect-section-1 {
+  flex-grow: 1;
+  height: 200px;
+
+  /*debug*/
+  border: 1px dashed black;
+  background-color: fuchsia;
+  text-align: center;
 }
