@@ -63,3 +63,39 @@ header {
   background-color: fuchsia;
   text-align: center;
 }
+
+.container-section-2 {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  padding-left: 500px;
+  padding-right: 500px;
+
+  /*debug*/
+  border: 1px dashed black;
+  background-color: white;
+  text-align: center;
+  min-height: 300px;
+}
+
+.rect-section-21 {
+  flex-grow: 1;
+  height: 200px;
+  width: 70%;
+
+  /*debug*/
+  border: 1px dashed black;
+  background-color: steelblue;
+  text-align: center;
+}
+
+.rect-section-22 {
+  flex-grow: 1;
+  height: 200px;
+  width: 40%;
+
+  /*debug*/
+  border: 1px dashed black;
+  background-color: pink;
+  text-align: center;
+}
