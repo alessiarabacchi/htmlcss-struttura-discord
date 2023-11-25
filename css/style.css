@@ -47,8 +47,8 @@ header {
 .container-section-1 {
   flex-grow: 1;
   display: flex;
-  padding-left: 500px;
-  padding-right: 500px;
+  padding-left: 350px;
+  padding-right: 350px;
   align-items: center;
 
   /*debug*/
@@ -61,6 +61,7 @@ header {
 .rect-section-1 {
   flex-grow: 1;
   height: 200px;
+  width: 400px;
 
   /*debug*/
   border: 1px dashed black;
@@ -71,8 +72,8 @@ header {
   flex-grow: 1;
   display: flex;
   align-items: center;
-  padding-left: 500px;
-  padding-right: 500px;
+  padding-left: 350px;
+  padding-right: 350px;
 
   /*debug*/
   border: 1px dashed black;
@@ -105,8 +106,8 @@ header {
   flex-grow: 1;
   display: flex;
   align-items: center;
-  padding-left: 500px;
-  padding-right: 500px;
+  padding-left: 350px;
+  padding-right: 350px;
 
   /*debug*/
   border: 1px dashed black;
@@ -137,11 +138,17 @@ header {
 
 .container-section-5 {
   flex-grow: 1;
+  display: flex;
+  align-items: center;
   height: 500px;
+  padding-left: 350px;
+  padding-right: 350px;
 
   /*debug*/
   border: 1px dashed black;
   background-color: rgb(212, 197, 197);
+  text-align: center;
+  min-height: 500px;
 }
 
 .rect-section-5 {
@@ -149,7 +156,7 @@ header {
   width: 500px;
   height: 450px;
   margin: 0 auto;
-  margin-top: 25px;
+  margin-top: 10px;
 
   /*debug*/
   border: 1px dashed black;
@@ -160,8 +167,8 @@ header {
   flex-grow: 1;
   display: flex;
   align-items: center;
-  padding-left: 500px;
-  padding-right: 500px;
+  padding-left: 350px;
+  padding-right: 350px;
 
   /*debug*/
   border: 1px dashed white;
@@ -173,7 +180,7 @@ header {
 .rect-footer-1 {
   flex-grow: 1;
   height: 300px;
-  width: 25%;
+  width: 30%;
 
   /*debug*/
   border: 1px dashed white;
@@ -231,8 +238,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-left: 350px;
+  margin-right: 350px;
   margin-top: 10px;
 
   /*debug*/
